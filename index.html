@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Nackte und Geile GmbH</title>
+<style>
+:root{color-scheme:dark;--bg:#08090c;--panel:#12141a;--text:#f5f7fb;--muted:#b5bac7;--accent:#c7f36b;--border:#2b303a}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--text);font:16px/1.7 Arial,Helvetica,sans-serif}
+header{padding:22px 7%;border-bottom:1px solid var(--border);background:#0b0c10}.brand{margin:0;font-size:clamp(1.3rem,3vw,2rem);font-weight:900;letter-spacing:.04em}.brand span{color:var(--accent)}
+nav{margin-top:12px;display:flex;gap:20px;flex-wrap:wrap}nav a{color:var(--muted);text-decoration:none}nav a:hover{color:var(--accent)}
+.hero{min-height:66vh;padding:90px 7%;display:flex;flex-direction:column;justify-content:center;background:radial-gradient(ellipse at 80% 15%,#20283b 0,transparent 45%),var(--bg)}
+.eyebrow{color:var(--accent);text-transform:uppercase;font-size:.8rem;letter-spacing:.25em;font-weight:bold}
+h2{font-size:clamp(2.2rem,6vw,5rem);line-height:1.05;margin:12px 0 20px;max-width:900px}.hero p{max-width:680px;color:var(--muted);font-size:1.15rem}
+.button{display:inline-block;width:fit-content;margin-top:18px;padding:12px 20px;border-radius:999px;background:var(--accent);color:#11140a;text-decoration:none;font-weight:bold}
+section.content{padding:70px 7%;border-top:1px solid var(--border)}.content h3{font-size:1.6rem;margin:0 0 10px}.content p{color:var(--muted);max-width:850px}
+.features{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:18px;margin-top:28px}.feature{background:var(--panel);border:1px solid var(--border);border-radius:16px;padding:24px}.feature strong{display:block;color:var(--accent);margin-bottom:8px;font-size:1.1rem}
+.claim{background:linear-gradient(130deg,#151a22,#0c0d11);border:1px solid var(--border);border-radius:20px;padding:clamp(24px,5vw,50px)}.claim blockquote{margin:18px 0 0;font-size:clamp(1.5rem,3vw,2.4rem);font-weight:bold;line-height:1.25}
+footer{padding:25px 7%;border-top:1px solid var(--border);color:var(--muted);font-size:.9rem}
+</style>
+</head>
+<body>
+<header>
+<h1 class="brand">NACKTE <span>UND GEILE GMBH</span></h1>
+<nav aria-label="Hauptnavigation"><a href="#start">Startseite</a><a href="#ueber-uns">Über uns</a><a href="#leistungen">Was wir machen</a><a href="#anspruch">Unser Anspruch</a></nav>
+</header>
+<main>
+<section class="hero" id="start">
+<div class="eyebrow">Mutig denken. Geil umsetzen.</div>
+<h2>Willkommen bei der<br>Nackte und Geile GmbH.</h2>
+<p>Wir stehen für frische Ideen, klare Ansagen und Ergebnisse, die im Kopf bleiben. Wir machen aus gewöhnlichen Einfällen außergewöhnliche Möglichkeiten — mit Kreativität, Teamgeist und einer guten Portion Selbstbewusstsein.</p>
+<a class="button" href="#ueber-uns">Lern uns kennen ↓</a>
+</section>
+<section class="content" id="ueber-uns">
+<div class="eyebrow">Wer wir sind</div><h3>Anders denken ist unser Standard.</h3>
+<p>Die Nackte und Geile GmbH ist ein Unternehmen mit Charakter. Wir glauben, dass gute Arbeit nicht langweilig sein muss: Wir hinterfragen alte Ideen, probieren Neues aus und geben jedem Projekt eine unverwechselbare Note. Unser Name fällt auf — unsere Arbeit soll es auch.</p>
+</section>
+<section class="content" id="leistungen">
+<div class="eyebrow">Unsere Stärken</div><h3>Was uns ausmacht</h3>
+<div class="features">
+<article class="feature"><strong>Kreativität</strong>Wir denken um die Ecke und finden Lösungen, die nicht von der Stange kommen.</article>
+<article class="feature"><strong>Qualität</strong>Wir geben uns nicht mit „passt schon“ zufrieden. Wir wollen, dass jedes Detail stimmt.</article>
+<article class="feature"><strong>Teamgeist</strong>Gute Ergebnisse entstehen gemeinsam — mit Respekt, Humor und ehrlicher Kommunikation.</article>
+</div></section>
+<section class="content" id="anspruch"><div class="claim">
+<div class="eyebrow">Unser Anspruch</div><h3>Die beste Firma der Welt?</h3>
+<p>Wir behaupten nicht einfach, gut zu sein — wir arbeiten jeden Tag daran, besser zu werden. Mit großen Ideen, hohen Ansprüchen und dem Mut, unseren eigenen Weg zu gehen.</p>
+<blockquote>„Vielleicht sind wir nicht die Größten. Aber wir haben vor, die Geilsten zu sein.“</blockquote>
+</div></section>
+</main>
+<footer>© <span id="year"></span> Nackte und Geile GmbH · Stark. Kreativ. Unverwechselbar.</footer>
+<script>document.getElementById('year').textContent=new Date().getFullYear();</script>
+</body>
+</html>
